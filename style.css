@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url(./imgs/barberShop.jpeg) ;
+   background-repeat: no-repeat; 
+   background-size:cover;
+   max-height:cover;
+
+}
+img{
+    width: 190px;
+    margin: 8px;
+    cursor:pointer; 
+    border-radius: 5px;
+ box-shadow: 2px 6px 9px 2px green;
+  
+}
+
+img:hover{
+    transition: 500ms;
+    transform: rotate(1080deg);
+}
+
+.container{
+    width:600px;
+    margin:0 auto;
+    text-align: center;
+    justify-content: center;
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 2px 2px;
+    padding: 10px;
+
+    
+
+}
+h1{
+    border: 2px solid;
+    padding:3px 3px;
+    margin: 2px 2px;
+    color:aliceblue;
+    font-family: verdana;
+    font-size: 24px;
+    
+}
+h1:hover{
+    transition: 600ms;
+    text-transform:uppercase ;
+    
+ box-shadow: 2px 6px 9px 2px green;
+}
+p{
+    margin:10px;
+    font-family:verdana;
+    font-size:15px;
+    line-height:20px;
+    color:aliceblue;
+}
+h2{
+  border-top:2px solid ;
+  border-bottom:2px solid;
+    color:aliceblue;
+    font-family: verdana;
+    font-size: 20px;
+    margin-top:35px;
+    margin-bottom:35px;
+}
+
+
+h3{
+    border-top:2px solid ;
+    border-bottom:2px solid;
+    color:aliceblue;
+    font-family: verdana;
+    font-size: 20px;
+    margin-top:35px;
+    margin-bottom:35px;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+    color:blanchedalmond;
+}
+.pContato{
+    margin-bottom: 35px;
+    line-height:20px;
+    font-family:verdana;
+    color:aliceblue;
+}
+#Whatsapp{
+    font-size: 16px;
+    font-family: 'Verdana';
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+    margin-top: 15px;
+    color: aliceblue;
+    background-color: #25D366;
+    border-radius: 25px;
+    box-shadow: 2px 6px 9px 2px green;
+}
+
+#Whatsapp:hover{
+    transition: 300ms;
+    text-transform:uppercase; 
+}
